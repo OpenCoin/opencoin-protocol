@@ -1,0 +1,28 @@
+{
+  "blind_signatures": [
+    {
+      "blind_signature": "3f757b0a7d9fab6940462acb8d219ffeb92dc27c3f24b46d91396b76aeeb910d94f8d8f1eb69b9ea7274f3c1cf63aba614d7e53d8f2c63c72444ca82b9c984e2",
+      "reference": "b0",
+      "type": "blind signature"
+    },
+    {
+      "blind_signature": "7d3ce35756e1fd24689f75614bc9988e6601b8855e128dba676bcbc9cba9998ab9db89b8dd764587d7ed6d1843820647a840dc2db7c09b22142dd315de07f8d8",
+      "reference": "b1",
+      "type": "blind signature"
+    },
+    {
+      "blind_signature": "34ae43a6740b6af5cb5106afae6958d307f355f45180b73757a8ee29bd85823cfa468dc23e998aa4a9daee843a19ea308a358eb24d165f929e15fe36953c3ba2",
+      "reference": "b2",
+      "type": "blind signature"
+    },
+    {
+      "blind_signature": "1b624ed5cddfbd4ea0ccb3063bfeb49891bf75acbf50f5f60e32023342e0350317d164f5f6fd8914df0d2249610ad805672a5b80b1d054bcdd40491b2c4b7e63",
+      "reference": "b3",
+      "type": "blind signature"
+    }
+  ],
+  "message_reference": 100004,
+  "status_code": 200,
+  "status_description": "ok",
+  "type": "response mint"
+}

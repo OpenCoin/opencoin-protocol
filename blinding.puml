@@ -1,0 +1,24 @@
+@startuml
+skinparam backgroundColor transparent
+
+
+
+
+rectangle Envelope as envelope1 {
+    rectangle "Carbon Copy paper" as cc1
+    rectangle "Serial: abc123" as serial1
+    cc1-[hidden]->serial1
+}
+
+rectangle "- Issuer signs ->" as signs
+
+rectangle Envelope2 as envelope2 {
+    rectangle "Carbon Copy paper" as cc2
+    rectangle "Serial: abc123" as serial2
+    cc2-[hidden]->serial2
+}
+
+envelope1-[hidden]>signs
+signs-[hidden]>envelope2
+
+@enduml
