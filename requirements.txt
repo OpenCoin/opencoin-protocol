@@ -1,0 +1,7 @@
+sphinx
+livereload
+myst-parser
+rinohtype
+Pillow
+sphinx-book-theme
+linkify-it-py
